@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <header>
+        <button class="reset" onclick="restartGame()">Play Again</button>
+        <h1>rock, paper, scissors</h1>
+    </header>
+    <div class="container">
+        <div class="game-container">
+            <div class="left-game-container">
+                <img src="./imgs/rock.jfif" alt="rock">
+                <button id="rock-btn">rock</button>
+            </div>
+            <div class="middle-game-container">
+                <img src="./imgs/paper.jpg" alt="paper">
+                <button id="paper-btn">paper</button>
+            </div>
+            <div class="right-game-container">
+                <img src="./imgs/scissors.jfif" alt="scissors">
+                <button id="scissors-btn">scissors</button>
+            </div>    
+        </div>
+        <div class="score-container">
+            <div class="left-score-container">
+                <h2>your score</h2>
+                <p id="player-score">-</p>
+            </div>
+            <div class="middle-score-container">
+                <h2 id="score-result">-</h2>
+            </div>
+            <div class="right-score-container">
+                <h2>computer score</h2>
+                <p id="computer-score">-</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>agusjoffre</p>
+        <a href="https://github.com/agusjoffre/rockpaperscissors">
+            <img src="./imgs/github.png" alt="github">
+        </a>
+    </footer>    
+</body>
+</html>
